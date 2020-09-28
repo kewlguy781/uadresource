@@ -29,6 +29,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 # For Users/Authenication
 # gem "devise"
+gem "devise_token_auth"
 
 # Pick one of UI Library below (if using Rails as front-end)
 # gem "materialize-sass" 
