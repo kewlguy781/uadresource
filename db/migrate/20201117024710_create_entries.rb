@@ -17,6 +17,7 @@ class CreateEntries < ActiveRecord::Migration[6.0]
       t.string :img
       t.string :lat
       t.string :long
+      t.string :keyword
       t.belongs_to :user, null: false, foreign_key: true
       t.belongs_to :catergory, null: false, foreign_key: true
 
